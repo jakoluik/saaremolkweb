@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saare Mõlk OÜ</title>
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+   <link href="./output.css" rel="stylesheet">
+</head>
+<body class="bg-white font-sans">
+
+  <!-- NAVBAR -->
+  <nav class="bg-stone-500 shadow-lg fixed w-full top-0 z-10">
+    <div class="container mx-auto px-4">
+        <div class="flex justify-between items-center py-4">
+            <a href="#">
+                <!-- SMLogo -->
+                <img src="/assets/SaareMölk_logo.transp.png" alt="Your Brand Logo" class="h-8">
+            </a>
+            <!-- Mobile burger menu -->
+            <div class="block lg:hidden">
+                <button id="mobile-menu-button" class="text-white focus:outline-none">
+                    <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+            </div>
+            <!-- Desktop menu -->
+            <ul class="hidden lg:flex space-x-4">
+                <li><a href="#ettevõttest" class="text-white hover:text-lime-900">ETTEVÕTTEST</a></li>
+                <li><a href="#galerii" class="text-white hover:text-lime-900">GALERII</a></li>
+                <li><a href="#kontakt" class="text-white hover:text-lime-900">KONTAKT</a></li>
+            </ul>
+        </div>
+        <!-- Mobile hidden menu -->
+        <div id="mobile-menu" class="hidden lg:hidden">
+            <ul class="text-white">
+                <li><a href="#ettevõttest" class="block py-2 px-4">Ettevõttest</a></li>
+                <li><a href="#galerii" class="block py-2 px-4">Galerii</a></li>
+                <li><a href="#" class="block py-2 px-4">Kontakt</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<script>
+    // JavaScript to toggle mobile menu visibility
+    document.getElementById('mobile-menu-button').addEventListener('click', function() {
+        document.getElementById('mobile-menu').classList.toggle('hidden');
+    });
+</script>
+
+  <!-- Header -->
+  <header class="py-32 bg-gradient-to-r bg-stone-500 text-white text-center rounded-2xl bg-cover bg-center">
+    <div class="container mx-auto px-4">
+        <h1 class="text-5xl font-bold leading-tight mb-4">Mõlgid välja!</h1>
+        <p class="text-xl mb-8">Alustasin Saaremaal mõlgiparanduse teenuse pakkumist! Anna oma sõidukile uus välimus! 
+Kasutan mõlkide eemaldamiseks PDR tehnikat. PDR (Paintless Dent Repair) meetodi abil saab professionaalselt eemaldada mõlke ilma, et oleks vaja kasutada traditsioonilisi värvimis- või täiteainetöid.</p>
+        <a href="#" class="bg-white text-black font-semibold py-2 px-6 rounded-full hover:bg-stone-500 hover:text-white transition duration-300">KONTAKT</a>
+    </div>
+</header>
+
+<!-- Section: Ettevõttest -->
+  <section id='ettevõttest' class="flex my-5 lg:mx-20 pt-16">
+      <div class="grid lg:grid-cols-2 leading-6">
+          <div class=" bg-stone-500 border-stone-500 rounded-xl text-white">
+      <div class="m-5 px-10 ">
+       <h2 class="pb-5 text-2xl">Ettevõttest</h2>
+         <div class="tracking-wider">
+              <p>
+                 Saare Mölk OÜ on ettevõte mis pakub autoomanikele odavat ja kiiret mõlgieemaldus teenust. 
+                 Mõlgieemalduseks kasutame PDR tehnikat.
+                 Võrreldes tavalise keretöö metoodikaga hoiab autoomanik kokku nii aega kui raha.
+                 PDR tehnikaga eemaldatakse mõlk spetsiaalseid vahendeid ja tehnoloogiat kasutades.
+                 Mõlkide eemaldamisega on võimalik säilitada auto originaal värvi terviklikkus.
+                 Mõlkide eemaldamist on võimalik kasutada kergemate vigastuste puhul näiteks parklates
+                 tekkinud vigastused teise auto ukse löögist, rahe kahjustused.
+               </p>
+               <p>Mõlgieemaldusprotsessi ei saa parandustöödel kasutada, kui:</p>
+                  <div class="pl-5">
+                    <p>*teravad mõlgid on liiga sügavad</p>
+                    <p>*kahjustada on saanud alad, kus on kasutatud topeltmetalli</p>
+                    <p>*mõlgid on sügava värvikahjustusega (nt lahtine värv)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+    <div class="m-5 px-10">
+        <h2 class="pb-5 text-2xl">PDR tehnoloogia</h2>
+        <p class="tracking-wider">
+         PDR (Paintless Dent Repair) on autokere remondi meetod,
+         mis võimaldab eemaldada väiksemaid mõlke ilma värvi kahjustamata.
+         Protsess hõlmab spetsiaalsete tööriistade kasutamist, et õrnalt masseerida mõlki väljapoole,
+         taastades selle algse kuju. See on kiire, taskukohane ja keskkonnasõbralik viis autokere remondiks.
+         </p>
+          </div>
+       </div>
+    </section>
+</div>
+
+<!--- Galerii näidis -->
+   <section id='galerii' class="lg:mx-20">
+            <div class="grid grid-cols-2 gap-1">
+                <img src="/assets/chuttersnap-gts_Eh4g1lk-unsplash.jpg" alt="exmpl1">
+                <img src="/assets/jacob-spence--lxokV5E0tc-unsplash.jpg" alt="exmpl2">
+                <img src="/assets/kevin-clark-T_O0lA-x9G4-unsplash.jpg" alt="exmpl3">
+                <img src="/assets/yuvraj-singh-tmAynVA_ihE-unsplash.jpg" alt="exmpl4">
+            </div>
+        </section>
+
+  <!-- Section: Kontakt  -->
+  <section id='kontakt' class="px-10 mx-5 mt-5 mb-20">
+    <div class="flex flex-col lg:flex-row">
+        <div class="lg:w-1/2 m-5">
+            <h2 class="text-3xl font-semibold">Kontakt</h2>
+            <p class="py-10 text-xl">Iga juhtum ja mõlk on erinev, võta oma auto ülevaatamiseks julgesti ühendust.</p>
+            <div class="font-semibold py-10">
+                <h3>Saare Mõlk OÜ</h3>
+                <h3 class="py-3">saaremolk@gmail.com</h3>
+                <h3>+372 5663 2060</h3>
+                <h3 class="py-3">Saaremaa, Leedri, Estonia</h3>
+            </div>
+        </div>
+
+        <!-- Customer form -->
+        <form action="#" method="POST" class="lg:w-1/2 m-5" enctype="multipart/form-data">
+            <div class="mb-4">
+                <label for="name" class="block text-gray-800 font-semibold mb-2">Nimi</label>
+                <input type="text" id="name" name="name" placeholder="Sinu nimi" class="w-full px-4 py-2 border rounded-lg">
+            </div>
+            <div class="mb-4">
+                <label for="email" class="block text-gray-800 font-semibold mb-2">E-post</label>
+                <input type="email" id="email" name="email" placeholder="Sinu e-posti aadress" class="w-full px-4 py-2 border rounded-lg">
+            </div>
+            <div class="mb-4">
+                <label for="message" class="block text-gray-800 font-semibold mb-2">Sõnum</label>
+                <textarea id="message" name="message" placeholder="Sinu sõnum" rows="4" class="w-full px-4 py-2 border rounded-lg"></textarea>
+            </div>
+            <div class="mb-4">
+                <label for="pictures" class="block text-gray-800 font-semibold mb-2">Pildid</label>
+                <input type="file" id="pictures" name="pictures[]" multiple class="w-full px-4 py-2 border rounded-lg">
+                <small class="text-gray-600">Vali kuni 3 pilti.</small>
+            </div>
+            <button type="submit" class="bg-stone-500 text-white font-semibold py-2 px-6 rounded-full hover:bg-stone-200 hover:text-white transition duration-300">Saada sõnum</button>
+        </form>
+    </div>
+</section>
+
+        <!-- Footer -->
+ <footer class="bg-stone-500 text-white mt-auto">
+      <div class="container mx-auto px-4 py-8 text-center">
+        <p>&copy; 2024 Saare Mõlk OÜ. Kõik õigused kaitstud.</p>
+      </div>
+    </footer>
+  </div>
+
+</body>
+</html>
